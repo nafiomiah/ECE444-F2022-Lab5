@@ -1,3 +1,9 @@
+# Lab 5
+Fahim Rahman Talukder and Nafio Miah
+
+This repo is a clone of https://github.com/nelaturuk/education_pathways. 
+
+
 # CARTE Education Pathways
 
 ## Description
