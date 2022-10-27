@@ -36,7 +36,7 @@ Screenshot of the repository on GitHub:
 ## Activity 6 - US3
 #### User Story: As an adminstrator, I want the ability to edit the information that is present on the webpage for a specific course so that students have the most accurate and up-to-date information.
 
-![444_Lab5_AdminAccess](https://user-images.githubusercontent.com/50860386/198176508-0fc3aaa7-e3f4-48ee-9a82-1604cd139673.png)
+![444_Lab5_Activity6-AdminAccess](https://user-images.githubusercontent.com/59378799/198186919-0f7d3ac0-fcef-4b56-844d-b66ad7cf5904.png)
 
 
 # Contents from Original Clone
