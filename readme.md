@@ -23,6 +23,15 @@ Screenshot of the repository on GitHub:
 
 ![ECE444_Lab5_Act2_5_ResultsPageTable](https://user-images.githubusercontent.com/59378799/197919783-18cbbd8a-0428-4cb6-ad1f-b6599b3d178a.JPG)
 
+## Activity 6 - US1
+#### User Story: As a student, I want to have detailed and relevant course information for a specific course so that I can make informed decisions on what courses I want to take.
+
+![444_Lab5_Activity6_VisibleCourseInfoUserStory](https://user-images.githubusercontent.com/50860386/198172818-18fdcb27-5404-45c3-83d1-3ba3b91c3027.JPG)
+
+## Activity 6 - US2
+#### User Story : As a student, I want to know which courses are relevant for certain minors so that I can make course selection decisions based off the minor I want to complete.
+
+![444_Lab5_Activity6_MinorUserStory](https://user-images.githubusercontent.com/50860386/198172925-0d89ca4b-ad0e-4185-a338-71f9b29bf3e8.JPG)
 
 
 # Contents from Original Clone
