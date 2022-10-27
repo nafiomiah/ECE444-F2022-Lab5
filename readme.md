@@ -29,9 +29,14 @@ Screenshot of the repository on GitHub:
 ![444_Lab5_Activity6_VisibleCourseInfoUserStory](https://user-images.githubusercontent.com/50860386/198172818-18fdcb27-5404-45c3-83d1-3ba3b91c3027.JPG)
 
 ## Activity 6 - US2
-#### User Story : As a student, I want to know which courses are relevant for certain minors so that I can make course selection decisions based off the minor I want to complete.
+#### User Story: As a student, I want to know which courses are relevant for certain minors so that I can make course selection decisions based off the minor I want to complete.
 
 ![444_Lab5_Activity6_MinorUserStory](https://user-images.githubusercontent.com/50860386/198172925-0d89ca4b-ad0e-4185-a338-71f9b29bf3e8.JPG)
+
+## Activity 6 - US3
+#### User Story: As an adminstrator, I want the ability to edit the information that is present on the webpage for a specific course so that students have the most accurate and up-to-date information.
+
+![444_Lab5_AdminAccess](https://user-images.githubusercontent.com/50860386/198176508-0fc3aaa7-e3f4-48ee-9a82-1604cd139673.png)
 
 
 # Contents from Original Clone
