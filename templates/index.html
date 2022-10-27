@@ -10,12 +10,19 @@
 </head>
 
 <body>
-  <a href="https://carte.utoronto.ca/" target="_blank"><img src="/static/CARTE_logo.jpg" class="img-fluid"
-      style="max-width: 25%"></a>
-  <div class="common-page-heading-container">
-    <h1>Education Pathways</h1>
+  <div class="nav-bar">
+    <ul>
+      <li class="app-name"><strong>AEVO</strong></a></li>
+      <li><a href="/course-search">Course Search</a></li>
+      <li><a href="/timetable-builder">Timetable Builder</a></li>
+      <li><a href="/minors-certificates">Minors and Certificates</a></li>
+      <li><a href="/about-us">About Us</a></li>
+    </ul>
   </div>
-  <div id="home-page-introduction">
+  <!-- <div class="common-page-heading-container">
+    <h1>Education Pathways</h1>
+  </div> -->
+  <!-- <div id="home-page-introduction">
     <p>Welcome to CARTE's in-development tool for course selection at UofT. Education Pathways allows for more
       intelligent
       course searching, by matching not just the terms you search, but ones relevant to them. The more terms you search
@@ -32,9 +39,9 @@
       for students. If you have ideas
       or
       suggestions, please <a href="mailto:alex.olson@utoronto.ca">email us!</a></div>
-  </div>
+  </div> -->
   {% from "_formhelpers.html" import render_field %}
-  <h3>Search for courses</h3>
+  <h3>Course Search</h3>
   <form class="common-page-form" method="post">
     <dl>
       {{ render_field(form.select) }}
@@ -46,6 +53,30 @@
         {{ render_field(form.search) }}
       </p>
     </dl>
+    <div class="minor-selection-check-list">
+      <h5><strong>Select a Minor to filter your search: </strong> </h5>
+      <input type="checkbox" id="minor1" name="minor1" value="minor1">
+      <label for="minor1"> Advanced Manufacturing</label><br><br>
+      <input type="checkbox" id="minor2" name="minor2" value="minor2">
+      <label for="minor2"> Artificial Intelligence Engineering</label><br><br>
+      <input type="checkbox" id="minor3" name="minor3" value="minor3">
+      <label for="minor3"> Engineering Business</label><br><br>
+      <input type="checkbox" id="minor4" name="minor4" value="minor4">
+      <label for="minor4"> Nanoengineering</label><br><br>
+      <input type="checkbox" id="minor5" name="minor5" value="minor5">
+      <label for="minor5"> Bioengineering</label><br><br>
+      <input type="checkbox" id="minor6" name="minor6" value="minor6">
+      <label for="minor6"> Environmental Engineering</label><br><br>
+      <input type="checkbox" id="minor7" name="minor7" value="minor7">
+      <label for="minor7"> Mechatronics and Robotics Minor</label><br><br>
+      <input type="checkbox" id="minor8" name="minor8" value="minor8">
+      <label for="minor8"> Music Performance</label><br><br>
+      <input type="checkbox" id="minor9" name="minor9" value="minor9">
+      <label for="minor9"> Global Leadership</label><br><br>
+      <input type="checkbox" id="minor10" name="minor10" value="minor10">
+      <label for="minor10"> Sustainable Energy</label><br><br>
+      <!-- <input type="submit" value="Submit"> -->
+    </div>
     <p>{{render_field(form.top)}} <input class="common-page-submit-btn btn btn-primary" type="submit" value="Search">
     </p>
   </form>

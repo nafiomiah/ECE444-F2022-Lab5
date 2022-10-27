@@ -82,6 +82,8 @@ def create_app():
     Then, separate the course information into the elements which have specific display functionality and the rest, which we show in a big table.
     Pass all that to render template.
     """
+
+        
     @app.route('/course/<code>')
     def course(code):
 
@@ -130,6 +132,11 @@ def create_app():
             activities=activities,
             zip=zip
             )
+
+    @app.route('/admin/course/PMU085/')
+    def admin_course():
+        return render_template('admin-course.html')
+        
     return app
 
 """

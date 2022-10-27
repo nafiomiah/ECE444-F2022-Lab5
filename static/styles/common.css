@@ -1,22 +1,61 @@
+.nav-bar li.app-name {
+    display: block;
+    color: #05152D;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 60px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(233, 233, 233);
+}
+
+.nav-bar ul li {
+    float: left;
+    ;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #05152D;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Segoe UI';
+    padding: 40px 100px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
 body {
     font-family: Verdana;
     padding: 40px;
-    background-color: #C7F3FF;
+    background-color: #f1f3f4;
 }
 
 h1,
 h3 {
+    margin: 20px auto;
     color: #00204E;
 }
 
-.common-page-heading-container {
+/* .common-page-heading-container {
     text-align: center;
     margin: 20px auto;
-}
+} */
 
 .common-page-form select,
 .common-page-form input {
-    background-color: beige;
+    background-color: lightgray;
     border-radius: 5px;
     border-color: transparent;
 }
@@ -29,11 +68,12 @@ h3 {
     border-style: solid;
     border-width: 2px;
     border-color: #00204E;
-    border-radius: 20px;
+    border-radius: 0px;
     padding: 20px;
     margin: 20px auto;
 }
 
 .common-page-submit-btn {
     margin-top: 20px;
+    color: #05152D;
 }
